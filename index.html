@@ -58,23 +58,30 @@
 
 <body>
     <div class="container">
+ <div class="btn-group">
+            <button id="btn0" title="Mở PA1_GACHA_applovin ">
+         Mở PA1_GACHA_applovin
+        </button>
+            <div class="desc">V1</div>
+        </div>
+
         <div class="btn-group">
             <button id="btn1" title="Mở Gamota_PA2_applovin ">
          Mở Gamota_PA2_applovin
         </button>
-            <div class="desc">V1</div>
+            <div class="desc">V2</div>
         </div>
         <div class="btn-group">
             <button id="btn2" title="Mở PGamota_PA3_applovin">
           Mở Gamota_PA3_applovin
         </button>
-            <div class="desc">V2</div>
+            <div class="desc">V3</div>
         </div>
          <div class="btn-group">
             <button id="btn3" title="Mở Gamota_PA4_applovin">
           Mở Gamota_PA4_applovin
         </button>
-            <div class="desc">V3</div>
+            <div class="desc">V4</div>
         </div>
         <!-- <div class="btn-group">
         <button id="btn3" title="Mở Tiny17_Vintage">Mở Tiny17_Vintage</button>
@@ -82,6 +89,9 @@
       </div> -->
     </div>
     <script>
+         document.getElementById("btn0").addEventListener("click", function() {
+            window.location.href = "PA1_GACHA_applovin.html";
+        });
         document.getElementById("btn1").addEventListener("click", function() {
             window.location.href = "Gamota_PA2_applovin.html";
         });
